@@ -12,9 +12,9 @@ app = Flask(__name__)
 # Load the model once and reuse
 print("Loading model...")
 config = XttsConfig()
-config.load_json("D:/xtts2-ui-main/tts_model/config.json")
+config.load_json("D:/tts_model/config.json")
 model = Xtts.init_from_config(config)
-model.load_checkpoint(config, checkpoint_dir="D:/xtts2-ui-main/tts_model/")
+model.load_checkpoint(config, checkpoint_dir="D:/tts_model/")
 model.cuda()
 print("Model loaded.")
 
