@@ -23,9 +23,9 @@ logger = logging.getLogger(__name__)
 try:
     logger.info("Loading model...")
     config = XttsConfig()
-    config.load_json(os.getenv('MODEL_CONFIG_PATH', "D:/xtts2-ui-main/tts_model/config.json"))
+    config.load_json(os.getenv('MODEL_CONFIG_PATH', "D:/tts_model/config.json"))
     model = Xtts.init_from_config(config)
-    model.load_checkpoint(config, checkpoint_dir=os.getenv('CHECKPOINT_DIR', "D:/xtts2-ui-main/tts_model/"))
+    model.load_checkpoint(config, checkpoint_dir=os.getenv('CHECKPOINT_DIR', "D:/tts_model/"))
     model.cuda()
     logger.info("Model loaded.")
 except Exception as e:
