@@ -51,6 +51,6 @@ Mel-Norm File: mel_stats.pth
 XTTS Checkpoint: model.pth
 Tokenizer File: vocab.json
 
-#Training Process
+# Training Process
 The model was trained using the fine-tuned parameters, with logs and checkpoints managed using TensorBoard. The training process involved loading the dataset, initializing the model with the GPTTrainerConfig, and using a customized Trainer class to fit the model.
 
