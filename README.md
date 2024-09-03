@@ -18,4 +18,6 @@ For each clip, the following metadata was included:
 Path: The file path to the audio clip.
 Transcription: The corresponding text transcription of the audio.
 Speaker Name: The name of the speaker.
-This dataset is now ready for use in training and evaluation.
+This dataset is now ready for use in training and evaluation. 
+[**Dataset**](https://drive.google.com/drive/folders/1P_RGV_PgIu3esyAUdIudGK1UGe_NRvok?usp=sharing)
+
