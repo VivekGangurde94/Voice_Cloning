@@ -34,7 +34,7 @@ Optimizer: AdamW
 Betas: [0.9, 0.96]
 Epsilon: 1e-8
 Weight Decay: 1e-3
-Learning Rate: 5e-6
+Learning Rate: 1e-5
 Scheduler: MultiStepLR with milestones at [50000 * 18, 150000 * 18, 300000 * 18] and gamma = 0.5
 2. Dataset Configuration
 Training Data: 103 audio clips
