@@ -1,4 +1,4 @@
-# Voice_cloinig_assignment
+# Voice_cloinig
  Text-Based Voice Cloning
 
 This repository contains the Fine tunning code and tts code
